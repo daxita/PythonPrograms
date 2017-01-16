@@ -1,1 +1,1 @@
-print([i for i in range(20) if i % 3 == 0 or i % 5 == 0])
+print (list(filter(lambda a: a%3==0 or a%5==0,[int(a) for a in range(int(input('Enter range: ')))])))
